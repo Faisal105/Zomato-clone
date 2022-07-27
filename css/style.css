@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url("../assets/hero.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    height: 85vh;
+    color: white;
+}
+
+img {
+    object-fit: cover;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.service{
+    border-radius: 1.2rem;
+    transition: transform .3s ease;
+}
+.service:hover{
+    transform: scale(1.05);
+}
+
+
+.locality {
+    padding: 0.8rem 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(232, 232, 232);
+    box-shadow: rgb(28 28 28 / 8%) 0px 1.42623px 2.85246px;
+}
+.locality:hover {
+    box-shadow: rgb(28 28 28 / 8%) 0px 4px 8px;
+}
+
+.locality > h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.locality > p {
+    color: rgb(54, 54, 54);
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin: 0;
+}
